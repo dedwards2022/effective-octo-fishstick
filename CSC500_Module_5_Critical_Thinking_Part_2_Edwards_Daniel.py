@@ -27,3 +27,38 @@ def main():
 # Call main function        
 if __name__ == "__main__":
     main()
+    
+'''
+Pseudocode:
+
+Function points(purchased_books)
+    If purchased_books equals 0
+        Return 0
+    Else IF purchased_books equals 2
+        Return 5
+    Else IF purchased_books equals 4
+        Return 15
+    Else IF purchased_books equals 6
+        Return 30
+    Else IF purchased_books is greater than or equal to 8
+        Return 60
+    Else
+        Return -1
+End Function
+
+Function main()
+    Console Input "How many books have you purchased this month? "
+    Read books from user input
+    Convert books to integer
+
+    earned equals points(books)
+
+    If earned is greater than or equal to 0
+        Output "You have ", earned, " points this month."
+    Else
+        Output "Please enter a supported number of books."
+End Function
+
+Call main()
+
+'''

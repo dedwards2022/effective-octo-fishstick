@@ -31,3 +31,41 @@ if value <= 1:
 else:
     print(f"\nThe total rain fall for the year was {formatted_total_rain_fall} inches")
     print(f"The average rain fall for the year was {formatted_average_rain_fall} inches")
+    
+    
+    
+'''
+Pseudocode:
+
+Initialize rain_fall as an empty list
+
+Initialize months = [January, February, March, April, May, June, July, August, September, October, November, December]
+
+FOR Loop annual RANGE (for 5 years):
+    Initialize an empty dictionary named annual_rain_fall
+    FOR month in months:
+        percipitation = FLOAT(Console Input("How much rain was there for {month}? "))
+        Console Input stored in annual_rain_fall = FLOAT(Percipitation)
+
+    APPEND annual_rain_fall to rain_fall list
+
+    FOR key-value pair in annual_rain_fall:
+        IF the VALUE is less than or equal to 1:
+            OUTPUT "inch"
+        ELSE:
+            OUTPUT "inches"
+
+total_rain_fall = (formatted) SUM of annual_rain_fall
+
+average_rain_fall = total_rain_fall) divided by LEN(annual_rain_fall)
+
+Format total rain fall to two decimal places
+Format total and average rain fall to two decimal places
+
+IF 'value' is less than or equal to 1:
+
+        OUTPUT "inch" (Annual & Average)
+    ELSE:
+        OUTPUT "inches" (Annual & Average)
+
+'''    
